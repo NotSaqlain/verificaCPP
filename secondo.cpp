@@ -28,7 +28,7 @@ public:
         return (ore * 60 * 60) + (minuti * 60) + secondi;
     }
 
-    int differenza(Orario ora2){
+    int differenza(Orario ora2) {
         return toSeconds() - ora2.toSeconds();
     }
 
