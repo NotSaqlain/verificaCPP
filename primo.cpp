@@ -7,12 +7,12 @@ const int DIM = 10;
 
 void riempiMatrice(int matrice[DIM][DIM]){
     for(int i=0;i<DIM;i++){
-        for(int j=0;j<DIM;j++){
+        for(int j=0;j<DIM;j++) {
             matrice[i][j] = rand() % 100;
         }
-        cout << endl;
     }
 }
+
 void stampa(int matrice[DIM][DIM]){
     for(int i = 0; i < DIM; i++){
         for(int j = 0; j < DIM; j++){
@@ -20,6 +20,7 @@ void stampa(int matrice[DIM][DIM]){
         }
         cout << endl;
     }
+    cout << endl;
 }
 
 int main() {
